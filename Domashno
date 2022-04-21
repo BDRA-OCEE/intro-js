@@ -1,0 +1,12 @@
+// 1
+
+function sumAll(arr) {
+let number1 = Number(arr[0]);
+let number2 = Number(arr[1]);
+let number3 = Number(arr[2]);
+
+let sum = number1 + number2 + number3;
+return sum;
+}
+
+console.log(sumAll(['1', '2', '3']));
